@@ -10,9 +10,10 @@
 		52632FB52859B92D005C0C1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52632FB42859B92D005C0C1E /* AppDelegate.swift */; };
 		52632FB72859B92D005C0C1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52632FB62859B92D005C0C1E /* SceneDelegate.swift */; };
 		52632FB92859B92D005C0C1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52632FB82859B92D005C0C1E /* ViewController.swift */; };
-		52632FBC2859B92D005C0C1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52632FBA2859B92D005C0C1E /* Main.storyboard */; };
 		52632FBE2859B936005C0C1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52632FBD2859B936005C0C1E /* Assets.xcassets */; };
 		52632FC12859B936005C0C1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52632FBF2859B936005C0C1E /* LaunchScreen.storyboard */; };
+		52632FDD285C5E1F005C0C1E /* ReservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52632FDC285C5E1F005C0C1E /* ReservationView.swift */; };
+		52632FE0285C5E54005C0C1E /* BillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52632FDF285C5E54005C0C1E /* BillView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +21,11 @@
 		52632FB42859B92D005C0C1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52632FB62859B92D005C0C1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		52632FB82859B92D005C0C1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		52632FBB2859B92D005C0C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52632FBD2859B936005C0C1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52632FC02859B936005C0C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52632FC22859B936005C0C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52632FDC285C5E1F005C0C1E /* ReservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationView.swift; sourceTree = "<group>"; };
+		52632FDF285C5E54005C0C1E /* BillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,8 @@
 				52632FB42859B92D005C0C1E /* AppDelegate.swift */,
 				52632FB62859B92D005C0C1E /* SceneDelegate.swift */,
 				52632FB82859B92D005C0C1E /* ViewController.swift */,
-				52632FBA2859B92D005C0C1E /* Main.storyboard */,
+				52632FDC285C5E1F005C0C1E /* ReservationView.swift */,
+				52632FDF285C5E54005C0C1E /* BillView.swift */,
 				52632FBD2859B936005C0C1E /* Assets.xcassets */,
 				52632FBF2859B936005C0C1E /* LaunchScreen.storyboard */,
 				52632FC22859B936005C0C1E /* Info.plist */,
@@ -126,7 +129,6 @@
 			files = (
 				52632FC12859B936005C0C1E /* LaunchScreen.storyboard in Resources */,
 				52632FBE2859B936005C0C1E /* Assets.xcassets in Resources */,
-				52632FBC2859B92D005C0C1E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52632FE0285C5E54005C0C1E /* BillView.swift in Sources */,
 				52632FB92859B92D005C0C1E /* ViewController.swift in Sources */,
+				52632FDD285C5E1F005C0C1E /* ReservationView.swift in Sources */,
 				52632FB52859B92D005C0C1E /* AppDelegate.swift in Sources */,
 				52632FB72859B92D005C0C1E /* SceneDelegate.swift in Sources */,
 			);
@@ -146,14 +150,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		52632FBA2859B92D005C0C1E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52632FBB2859B92D005C0C1E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		52632FBF2859B936005C0C1E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
