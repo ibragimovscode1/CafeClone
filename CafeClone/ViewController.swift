@@ -40,6 +40,7 @@ class ViewController: UIViewController {
                 logo.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 30),
                 logo.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 120)
             ])
+       
         //MARK: SignInLabel
         signInlabel.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(signInlabel)
@@ -129,7 +130,7 @@ class ViewController: UIViewController {
         view.addSubview(signInButton)
         signInButton.translatesAutoresizingMaskIntoConstraints = false
         signInButton.setTitle("Log In", for: .normal)
-        signInButton.titleLabel?.font = UIFont(name: "Arial Rounded MT Bold", size: 20)
+        signInButton.titleLabel?.font = UIFont(name: "Arial Rounded MT Bold", size: 25)
         signInButton.backgroundColor = .red
         signInButton.layer.cornerRadius = 20
         signInButton.addTarget(self, action: #selector(logInButtonTapped), for: .touchUpInside)
